@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app> 
+    <servlet> 
+        <servlet-name>
+            FormServlet
+        </servlet-name> 
+        <servlet-class>
+            form.FormServlet 
+        </servlet-class> 
+   </servlet> 
+   <servlet-mapping> 
+       <servlet-name>
+           FormServlet
+      </servlet-name> 
+      <url-pattern>
+           ../form.Servlet
+   </servlet-mapping> 
+</web-app>
